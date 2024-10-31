@@ -1,15 +1,20 @@
-## Build LLM's(foundation models) like llama3.2, Gemma2, MISTRAL on local machine using OLLAMA, Docker, Open WebUI 👋
+## Build LLM's(foundation models) like Llama 3.2, Gemma2, MISTRAL on local machine using OLLAMA, Docker, Open WebUI 👋
 
+OLLAMA is an open-source platform that allows users to run large language models (LLMs) on Local Machine.
 
-Open WebUI is an [extensible](https://github.com/open-webui/pipelines), feature-rich, and user-friendly self-hosted WebUI designed to operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs. For more information, be sure to check out our 
+Docker is an open-souce Containerization tool that allows run Open WebUI as  containerized application on local Machine.
+
+Open WebUI is feature-rich, and user-friendly self-hosted WebUI designed to operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs. 
 
 https://github.com/user-attachments/assets/692487f0-0fc7-4338-b513-c4978d557e3a
 
 
 
-
-## How to Install 🚀
+## How to Install and Configure 🚀
 1. **Download and Install OLLAMA on your Machine**:
+   https://ollama.com/download
+   
+2. **Install LLM models on your Machine from OLLAMA Library**:
    Open your terminal and run the following command to install and run Meta's llama3.2,Google's gemma2:
 
    ```bash
@@ -17,21 +22,21 @@ https://github.com/user-attachments/assets/692487f0-0fc7-4338-b513-c4978d557e3a
    ollama run gemma2:2b 
    ```
    
-2. **Install Docker Desktop**:
-   Open your terminal and run the following command to install Open WebUI:
+   These will install the Meta's llama3.2 and Google's gemma2 , 2b billion parameter Model , we can add more models like MISTRAL,Microsoft Phi3,llava..
+   If we have teh model istalled it will run , else it will download the model's and run, Model Details can be found at https://ollama.com/library
+
+3. **Install Docker Desktop**:
+   Downdload and Install Docker-Desktop on you local Machine
+   
+4. **Open your terminal and run the following command to install Open WebUI**
 
    ```bash
-   docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+   docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open- 
+   webui:main
    ```
-
-3. **Running Open WebUI**:
-   After installation, you can start Open WebUI by executing:
-
-   ```bash
-   open-webui serve
-   ```
-
-This will start the Open WebUI server, which you can access at [http://localhost:3000](http://localhost:3000) .The Default port is 8080 but we have mapped it to 3000 in Docker container.
+   
+   This will start the Open WebUI server, which you can access at [http://localhost:3000](http://localhost:3000) .The Default port is 8080 but we have mapped it to 3000 in 
+   Docker container.
 
 ### Quick Start with Docker 🐳
 
