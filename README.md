@@ -1,4 +1,4 @@
-# Build LLM's(foundation models) like llama3.2, Gemma2, MISTRAL on local machine using OLLAMA, Docker, Open WebUI 👋
+## Build LLM's(foundation models) like llama3.2, Gemma2, MISTRAL on local machine using OLLAMA, Docker, Open WebUI 👋
 
 
 Open WebUI is an [extensible](https://github.com/open-webui/pipelines), feature-rich, and user-friendly self-hosted WebUI designed to operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs. For more information, be sure to check out our 
