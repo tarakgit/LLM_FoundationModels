@@ -12,23 +12,25 @@ https://github.com/user-attachments/assets/692487f0-0fc7-4338-b513-c4978d557e3a
 
 ## How to Install and Configure 🚀
 1. **Download and Install OLLAMA on your Machine**:
-   https://ollama.com/download
+    [Download OLLAMA](https://ollama.com/download) based on you Operating System
    
-2. **Install LLM models on your Machine from OLLAMA Library**:
-   Open your terminal and run the following command to install and run Meta's llama3.2,Google's gemma2:
+   
+3. **Install LLM models on your Machine from OLLAMA Library**:
+   Open your terminal and run the following command to install and run Meta's llama3.2,Google's gemma2,IBM's granite3:
 
    ```bash
    ollama run llama3.2
-   ollama run gemma2:2b 
+   ollama run gemma2:2b
+   ollama run granite3-dense
    ```
    
    These will install the Meta's llama3.2 and Google's gemma2 , 2b billion parameter Model , we can add more models like MISTRAL,Microsoft Phi3,llava..
    If we have teh model istalled it will run , else it will download the model's and run, Model Details can be found at https://ollama.com/library
 
-3. **Install Docker Desktop**:
+4. **Install Docker Desktop**:
    Downdload and Install Docker-Desktop on you local Machine
    
-4. **Open your terminal and run the following command to install Open WebUI**
+5. **Open your terminal and run the following command to install Open WebUI**
 
    ```bash
    docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open- 
