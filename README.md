@@ -3,7 +3,8 @@
 
 Open WebUI is an [extensible](https://github.com/open-webui/pipelines), feature-rich, and user-friendly self-hosted WebUI designed to operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs. For more information, be sure to check out our 
 
-![Open WebUI Demo](./demo.gif)
+https://github.com/user-attachments/assets/692487f0-0fc7-4338-b513-c4978d557e3a
+
 
 
 
