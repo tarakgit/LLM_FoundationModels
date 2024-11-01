@@ -47,7 +47,7 @@ https://github.com/user-attachments/assets/692487f0-0fc7-4338-b513-c4978d557e3a
 
    You can Customize the model prompts and other parameters like temperature as well.
 
-   Let's Create Model Watson, which can respond like a professor Watson a Professor in Science.
+   Let's Create Model Watson, which can respond like Watson a Professor in Science.
 
 
 1. **Create a file Modelfile with below content**
