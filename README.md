@@ -34,8 +34,11 @@ https://github.com/user-attachments/assets/692487f0-0fc7-4338-b513-c4978d557e3a
 5. **Install Docker Desktop**:
 
    [Download](https://www.docker.com/products/docker-desktop/) and Install Docker-Desktop on you local Machine
+
+   <img width="1268" alt="Screenshot 2024-11-01 at 12 43 48" src="https://github.com/user-attachments/assets/bb68baae-fbe9-4af0-8041-92ba1b893cd9">
+
    
-6. **Open your terminal and run the following command to install Open WebUI**
+7. **Open your terminal and run the following command to install Open WebUI**
 
    ```bash
    docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open- 
