@@ -33,7 +33,7 @@ https://github.com/user-attachments/assets/692487f0-0fc7-4338-b513-c4978d557e3a
 
 5. **Install Docker Desktop**:
 
-   [Downdload](https://www.docker.com/products/docker-desktop/) and Install Docker-Desktop on you local Machine
+   [Download](https://www.docker.com/products/docker-desktop/) and Install Docker-Desktop on you local Machine
    
 6. **Open your terminal and run the following command to install Open WebUI**
 
