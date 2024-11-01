@@ -11,8 +11,10 @@ https://github.com/user-attachments/assets/692487f0-0fc7-4338-b513-c4978d557e3a
 
 
 ## How to Install and Configure 🚀
+
 1. **Download and Install OLLAMA on your Machine**:
-    [Download OLLAMA](https://ollama.com/download) based on you Operating System
+
+   [Download OLLAMA](https://ollama.com/download) based on you Operating System
    
    
 3. **Install LLM models on your Machine from OLLAMA Library**:
@@ -39,6 +41,42 @@ https://github.com/user-attachments/assets/692487f0-0fc7-4338-b513-c4978d557e3a
    
    This will start the Open WebUI server, which you can access at [http://localhost:3000](http://localhost:3000) .The Default port is 8080 but we have mapped it to 3000 in 
    Docker container.
+
+
+## Model Customization
+
+   You can Customize the model prompts and other parameters like temperature as well.
+
+   Let's Create Model Watson, which can respond like a professor Watson a Professor in Science.
+
+
+1. **Create a file Modelfile with below content**
+
+```bash
+    FROM llama3.2
+    
+    # set the temperature to 1 [higher is more creative, lower is more coherent]
+    PARAMETER temperature 1
+    
+    # set the system message
+    SYSTEM """
+    You are Watson a scientist and Professor. Respond as a knowledgable  guy who can guide  and answer me.
+    """
+```
+
+2. **Run below command to build the Model with customization**
+
+```bash
+    ollama create watson  -f ./Modelfile
+```
+
+3. **Start the model watson**
+   ```bash
+    ollama run watson
+```
+
+https://github.com/user-attachments/assets/167c7b39-007f-4c10-97e6-6d26dc2b67bf
+
 
 ### Quick Start with Docker 🐳
 
