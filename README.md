@@ -1,4 +1,4 @@
-## Build LLM's(foundation models) like Llama 3.2, Gemma2, MISTRAL on local machine using OLLAMA, Docker, Open WebUI 👋
+## Build LLM's(foundation models) like Meta Llama 3.2,Google Gemma2, MISTRAL, IBM Granite on local machine using OLLAMA, Docker, Open WebUI 👋
 
 OLLAMA is an open-source platform that allows users to run large language models (LLMs) on Local Machine.
 
@@ -48,35 +48,41 @@ https://github.com/user-attachments/assets/692487f0-0fc7-4338-b513-c4978d557e3a
    You can Customize the model prompts and other parameters like temperature as well.
 
    Let's Create Model Watson, which can respond like Watson a Professor in Science.
+1. **Select the Desired Model of your choice**
 
-
-1. **Create a file Modelfile with below content**
+   pull the model from OLLAMA Library, here I use llama3.2 as i fell in love with it.
 
    ```bash
-    FROM llama3.2
-    
-    # set the temperature to 1 [higher is more creative, lower is more coherent]
-    PARAMETER temperature 1
-    
-    # set the system message
-    SYSTEM """
-    You are Watson a scientist and Professor. Respond as a knowledgable  guy who can guide  and answer me.
-    """
+      ollama pull llama3.2
+   ```
+      
+2. **Create a file Modelfile with below content**
+
+   ```bash
+       FROM llama3.2
+       
+       # set the temperature to 1 [higher is more creative, lower is more coherent]
+       PARAMETER temperature 1
+       
+       # set the system message
+       SYSTEM """
+       You are Watson a scientist and Professor. Respond as a knowledgable  guy who can guide  and answer me.
+       """
    ```
 
-2. **Run below command to build the Model with customization**
+3. **Run below command to build the Model with customization**
 
    ```bash
-    ollama create watson  -f ./Modelfile
+       ollama create watson  -f ./Modelfile
    ```
 
-3. **Start the model watson**
+4. **Start the model watson**
    ```bash
-    ollama run watson
+       ollama run watson
    ```
 
 Lets see the demo
 
 https://github.com/user-attachments/assets/167c7b39-007f-4c10-97e6-6d26dc2b67bf
 
-
+Enjoy! 😄
