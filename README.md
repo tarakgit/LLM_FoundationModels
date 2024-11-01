@@ -15,7 +15,8 @@ https://github.com/user-attachments/assets/692487f0-0fc7-4338-b513-c4978d557e3a
 1. **Download and Install OLLAMA on your Local Machine**:
 
    [Download OLLAMA](https://ollama.com/download) based on your Operating System
-   
+
+   <img width="374" alt="Screenshot 2024-10-31 at 12 42 54" src="https://github.com/user-attachments/assets/64ef3a3b-1f60-4e1d-b040-1efe94632f93">
    
 2. **Install LLM models on your Machine from OLLAMA Library**:
    Open your terminal and run the following command to install and run Meta's llama3.2,Google's gemma2,IBM's granite3:
