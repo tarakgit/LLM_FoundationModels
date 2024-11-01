@@ -99,7 +99,7 @@ https://github.com/user-attachments/assets/167c7b39-007f-4c10-97e6-6d26dc2b67bf
    ```bash
        ollama cp llama3.2 demo-modelwaston
    ```
-   Note: If you want to create a model from customized model like watson you may have to create Modelfile and run it                incase encountering any error like "Error: pull model manifest: file does not exist"
+   Note: error like "Error: pull model manifest: file does not exist" is due to improper copy of files.
 
 6. **Delete the models**
    ```bash
