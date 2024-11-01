@@ -95,4 +95,15 @@ Lets see the demo.
 
 https://github.com/user-attachments/assets/167c7b39-007f-4c10-97e6-6d26dc2b67bf
 
-Enjoy! 😄
+5. **Copy or replicate any base model**
+   ```bash
+       ollama cp llama3.2 demo-modelwaston
+   ```
+   Note: If you want to create a model from customized model like watson you may have to create Modelfile and run it                incase encountering any error like "Error: pull model manifest: file does not exist"
+
+6. **Delete the models**
+   ```bash
+       ollama rm  demo-modelwaston
+   ```
+
+Enjoy, Happy Learning! 😄
