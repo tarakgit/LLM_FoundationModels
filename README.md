@@ -91,7 +91,7 @@ https://github.com/user-attachments/assets/692487f0-0fc7-4338-b513-c4978d557e3a
        ollama run watson
    ```
 
-Lets see the demo
+Lets see the demo.
 
 https://github.com/user-attachments/assets/167c7b39-007f-4c10-97e6-6d26dc2b67bf
 
