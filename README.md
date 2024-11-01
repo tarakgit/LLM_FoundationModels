@@ -52,7 +52,7 @@ https://github.com/user-attachments/assets/692487f0-0fc7-4338-b513-c4978d557e3a
 
 1. **Create a file Modelfile with below content**
 
-```bash
+   ```bash
     FROM llama3.2
     
     # set the temperature to 1 [higher is more creative, lower is more coherent]
@@ -62,18 +62,18 @@ https://github.com/user-attachments/assets/692487f0-0fc7-4338-b513-c4978d557e3a
     SYSTEM """
     You are Watson a scientist and Professor. Respond as a knowledgable  guy who can guide  and answer me.
     """
-```
+   ```
 
 2. **Run below command to build the Model with customization**
 
-```bash
+   ```bash
     ollama create watson  -f ./Modelfile
-```
+   ```
 
 3. **Start the model watson**
    ```bash
     ollama run watson
-```
+   ```
 
 Lets see the demo
 
