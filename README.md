@@ -1,4 +1,4 @@
-## Build LLM's(foundation models) like Meta Llama 3.2,Google Gemma2, MISTRAL, IBM Granite on local machine using OLLAMA, Docker, Open WebUI 👋
+## Build LLM's(foundation models) like DeepSeek, Meta Llama 3.2,Google Gemma2, MISTRAL, IBM Granite on local machine using OLLAMA, Docker, Open WebUI 👋
 
 OLLAMA is an open-source platform that allows users to run large language models (LLMs) on Local Machine.
 
@@ -22,6 +22,7 @@ https://github.com/user-attachments/assets/692487f0-0fc7-4338-b513-c4978d557e3a
    Open your terminal and run the following command to install and run Meta's llama3.2,Google's gemma2,IBM's granite3:
 
    ```bash
+   ollama run deepseek-r1:1.5b
    ollama run llama3.2
    ollama run gemma2:2b
    ollama run granite3-dense
